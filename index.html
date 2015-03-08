@@ -644,6 +644,10 @@
                                     <textarea class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
+                                <div id="honeypot-div" style="display: none;">
+                                    If you see this, leave this form field blank.
+                                    <input type="text" class="form-control" name="honeypot" value="" maxlength="0" data-validation-required-message="If you see this, leave this form field blank."/>
+                                </div>
                                 <div id="success"></div>
                                 <button id="btn-send-msg" type="submit" class="btn btn-x3 wow bounceIn animated">Send Message</button>
                             </div>-->

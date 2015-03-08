@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="393baccb-0e0f-4335-90de-7afa24989f57" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contact_me.js" afterPath="$PROJECT_DIR$/js/contact_me.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="husterk.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,12 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.076923" vertical-offset="10633" max-vertical-offset="15657">
-              <caret line="647" column="125" selection-start-line="647" selection-start-column="113" selection-end-line="647" selection-end-column="125" />
-              <folding />
+            <state vertical-scroll-proportion="0.42987806" vertical-offset="10559" max-vertical-offset="15725">
+              <caret line="646" column="78" selection-start-line="646" selection-start-column="78" selection-end-line="646" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jqBootstrapValidation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="15606">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact_me.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact_me.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/contact_me.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1827957" vertical-offset="136" max-vertical-offset="1632">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -67,9 +82,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/php/contact_me.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/js/contact_me.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -330,7 +345,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14433">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -338,7 +355,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14433">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -366,19 +385,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.076923" vertical-offset="10633" max-vertical-offset="15657">
-          <caret line="647" column="125" selection-start-line="647" selection-start-column="113" selection-end-line="647" selection-end-column="125" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
+    <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1827957" vertical-offset="136" max-vertical-offset="1632">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="15606">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42987806" vertical-offset="10559" max-vertical-offset="15725">
+          <caret line="646" column="78" selection-start-line="646" selection-start-column="78" selection-end-line="646" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
