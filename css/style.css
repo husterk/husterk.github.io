@@ -250,6 +250,7 @@ img {
 
 .img-me {
     margin-top: 18px;
+    max-height: 300px;
 }
 
 .bg-clients {
@@ -342,7 +343,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    background-color: transparent;
+    background-color: rgba(19, 176, 165, 0.75);
 }
 
 .btn-x2:hover,
@@ -350,9 +351,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-x2:active,
 .btn-x2.active,
 .open .dropdown-toggle.btn-x2 {
-    border-color: #13B0A5;
-    color: #13B0A5;
-    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    background-color: rgba(71, 77, 93, 0.75);
 }
 
 .btn-x1 {
@@ -474,6 +475,19 @@ section h3.section-subheading {
     background-color: #13B0A5;
 }
 
+.navbar-main-menu {
+    background-color: rgba(71, 77, 93, 0.75);
+}
+@media only screen and (max-width : 768px) {
+    .navbar-main-menu {
+        background-color: transparent;
+    }
+}
+.navbar-shrink .navbar-main-menu {
+    background-color: transparent;
+}
+
+
 .navbar-fixed-top.navbar-shrink .nav li a {
     color: #4d4d50;
 }
@@ -540,6 +554,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    background-color: rgba(71, 77, 93, 0.50);
 }
 
 
@@ -873,12 +888,12 @@ header .intro-text .intro-heading {
 -------------------------------------------------*/
 aside.clients img {
     margin: 40px auto;
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 aside.clients img:hover {
-    opacity: 0.5;
-    transform: scale(1.1);
+    opacity: 0.9;
+    transform: scale(1.2);
 }
 
 
