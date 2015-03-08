@@ -18,13 +18,22 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././php/contact_me.php",
-                type: "POST",
+                type: 'POST',
+                url: 'https://mandrillapp.com/api/1.0/messages/send.json',
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    'key': 'cK5djXfaVJUoF98UfeX1Tg',
+                    'message': {
+                        'from_email': email,
+                        'to': [
+                            {
+                                'email': 'husterk@gmail.com',
+                                'name': 'Keith Huster',
+                                'type': 'to'
+                            }],
+                        'autotext': 'true',
+                        'subject': 'Website Contact Form: ' + name + ' (' + phone + ')',
+                        'html': message
+                    }
                 },
                 cache: false,
                 success: function() {
@@ -49,7 +58,7 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
+                }
             })
         },
         filter: function() {
