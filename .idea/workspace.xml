@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393baccb-0e0f-4335-90de-7afa24989f57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contact_me.js" afterPath="$PROJECT_DIR$/js/contact_me.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="husterk.github.io.iws" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42987806" vertical-offset="10559" max-vertical-offset="15725">
-              <caret line="646" column="78" selection-start-line="646" selection-start-column="78" selection-end-line="646" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.31707317" vertical-offset="844" max-vertical-offset="15725">
+              <caret line="68" column="83" selection-start-line="68" selection-start-column="83" selection-end-line="68" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -405,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42987806" vertical-offset="10559" max-vertical-offset="15725">
-          <caret line="646" column="78" selection-start-line="646" selection-start-column="78" selection-end-line="646" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.31707317" vertical-offset="844" max-vertical-offset="15725">
+          <caret line="68" column="83" selection-start-line="68" selection-start-column="83" selection-end-line="68" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
