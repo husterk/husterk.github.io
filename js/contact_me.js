@@ -17,6 +17,11 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            
+            var sendMsgBtnSelector = $("#btn-send-msg");
+            sendMsgBtnSelector.text("Sending...");
+            sendMsgBtnSelector.attr("disabled", true);
+
             $.ajax({
                 type: 'POST',
                 url: 'https://mandrillapp.com/api/1.0/messages/send.json',
@@ -48,6 +53,9 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+
+                    sendMsgBtnSelector.text("Send Message");
+                    sendMsgBtnSelector.attr("disabled", false);
                 },
                 error: function() {
                     // Fail message
@@ -58,6 +66,9 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
+
+                    sendMsgBtnSelector.text("Send Message");
+                    sendMsgBtnSelector.attr("disabled", false);
                 }
             })
         },
